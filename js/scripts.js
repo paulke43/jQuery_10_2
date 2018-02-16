@@ -15,7 +15,7 @@ $(function(){
 
 	});
 //Add event handler to each button
-	$("button").click(function(){
-	alert($(this).attr("data-tmp"));
+	$("button").on( "click", function(){
+		alert($(this).attr("data-tmp"));
 	});
 });
